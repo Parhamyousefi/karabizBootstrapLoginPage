@@ -1,0 +1,63 @@
+* {
+    font-family: "AIranianSans";
+  }
+.picContainer{
+    background-image: url("../Images/Mask\ Group\ 60.jpg");
+    background-size: cover;
+}
+.bg-general{
+    background-color: #333941 !important;
+}
+.bg-orange{
+    background-color: #FF6700 !important;
+}
+.logo{
+    width: 5rem;
+}
+.details{
+    font-size: .7rem;
+}
+input{
+    background-color: #3E4550 !important;
+    font-size: .8rem !important;
+}
+input::placeholder{
+    color: #6C757D !important;
+}
+input:focus{
+    outline: none !important;
+    border: none !important;
+    
+}
+.rules{
+  font-size: .7rem;
+}
+.rules span{
+    color: #FF6700;
+}
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #ff6700;
+    border-radius: 10px;
+  }
+  @font-face {
+    font-family: "AIranianSans";
+  src: url("../Fonts/BYekan/BYekan.eot");
+  src: url("../Fonts/BYekan/BYekan.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/BYekan/BYekan.woff2") format("woff2"),
+    url("../Fonts/BYekan/BYekan.woff") format("woff"),
+    url("../Fonts/BYekan/BYekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+ 

@@ -45,6 +45,20 @@ form i {
     color: #FF6700;
     text-decoration: none;
 }
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #ff6700;
+    border-radius: 10px;
+  }
   @font-face {
     font-family: "AIranianSans";
   src: url("../Fonts/BYekan/BYekan.eot");
