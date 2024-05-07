@@ -29,6 +29,9 @@ input:focus{
     border: none !important;
     
 }
+.wrongFormat{
+  border-bottom: 3px solid #ff0000 !important;
+}
 .rules{
   font-size: .7rem;
 }

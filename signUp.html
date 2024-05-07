@@ -44,17 +44,17 @@
               placeholder="شماره موبایل خود را وارد کنید"
               onlynumber="true"
               maxlength="11"
-              class="w-100 text-secondary text-end border-0 my-2 p-2 rounded form-control0"
+              class="w-100 text-light text-end border-0 my-2 p-2 rounded form-control0"
             />
            
-              <input type="text" name="code" id="code" placeholder="کد معرف خود را وارد کنید (اختیاری)" class=" w-100 text-secondary text-end border-0 my-2 p-2 rounded form-control0"/>
+              <input type="text" name="code" id="code" placeholder="کد معرف خود را وارد کنید (اختیاری)" class=" w-100 text-light text-end border-0 my-2 p-2 rounded form-control0"/>
             <div class="rules text-end text-light">
               <label for="Rules"><span>قوانین</span> را مطالعه کرده و می پذیرم</label>
-              <input type="checkbox" name="Rules" id="Rules" required>
+              <input type="checkbox" name="Rules" id="Rules">
             </div>
-            <button type="submit" class="btn bg-orange w-100 my-2 text-light">
+            <a class="btn bg-orange w-100 my-2 text-light" onclick=formValidation()>
               ورود
-            </button>
+            </a>
             <a href="./login.html" class="btn bg-light w-100 my-2">قبلا ثبت نام کردید؟ (ورود)</a>
           </form>
         </div>

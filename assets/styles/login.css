@@ -32,6 +32,9 @@ input:focus{
 .passwordInput{
     position: relative;
 }
+.wrongFormat{
+  border-bottom: 3px solid #ff0000 !important;
+}
 
 form i {
     position: absolute;
