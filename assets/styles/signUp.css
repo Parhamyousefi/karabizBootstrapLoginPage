@@ -11,6 +11,9 @@
 .bg-orange{
     background-color: #FF6700 !important;
 }
+.formContainer{
+  z-index: 1;
+}
 .logo{
     width: 5rem;
 }
@@ -51,6 +54,22 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background: #ff6700;
     border-radius: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+    .bg-mobile{
+      background-image: url(../Images/Mask\ Group\ 61.jpg) !important;
+      position: relative;
+    }
+    .bg-mobile::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(5, 5, 5, 0.5) !important;
+      z-index: 0;
+    }
   }
   @font-face {
     font-family: "AIranianSans";
